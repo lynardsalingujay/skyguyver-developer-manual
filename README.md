@@ -37,3 +37,24 @@ Everything needed to rebuild, debug, or extend SkyGuyver lives here.
 | Front-End   | **React + Vite**      | Fast, modular web client                      |
 | Hosting     | **Netlify**           | Continuous deployment and edge hosting        |
 | Docs        | **Markdown + GitHub** | Source-controlled documentation vault         |
+
+---
+
+## 💰 Business & Monetization
+
+For subscription pricing details, tier enforcement, and billing integrations (e.g., Stripe via n8n, usage tracking in Supabase), see [pricing.md](./pricing.md).
+
+**Dev Notes**:
+
+- Implement tier logic in Supabase (e.g., row-level security on usage tables) and n8n workflows (e.g., minute tracking via Vapi webhooks).
+- Track overages in Supabase `usage_logs` table; trigger alerts via n8n to Stripe.
+- Feature flags in React dashboard: Use Supabase auth to gate UI elements (e.g., concurrency limits).
+
+---
+
+## Next Steps for Pricing Implementation
+
+- Launch with Starter/Basic to drive trials—promote via NZ SMB networks like BusinessNZ.
+- Monitor Vapi costs (~$0.15-0.25 USD/min) to ensure 50-100% margins.
+- If needed, add-ons like extra numbers (+$17/mo) or unlimited storage (+$52/mo).
+- Test pricing with a landing page A/B split!
