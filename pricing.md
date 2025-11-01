@@ -21,3 +21,7 @@ We've structured your plans as tiered monthly subscriptions, starting with a low
 - Monitor Vapi costs (~$0.15-0.25 USD/min) to ensure 50-100% margins.
 - If needed, add-ons like extra numbers (+$17/mo) or unlimited storage (+$52/mo).
 - Test pricing with a landing page A/B split!
+
+---
+
+pricing - grok chat
