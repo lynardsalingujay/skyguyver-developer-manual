@@ -2,7 +2,7 @@
 
 ## Overview
 
-Client subscriptions
+Tracks each client's subscription, usage, and billing information.
 
 ## Schema
 
