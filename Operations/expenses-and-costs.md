@@ -19,9 +19,10 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ## Monthly Recurring Costs
 
-| Service | Provider | Cost (NZD/month) | Purpose | Status |
-| ------- | -------- | ---------------- | ------- | ------ |
-|         |          |                  |         |        |
+| Service       | Provider  | Cost (NZD/month) | Purpose                        | Status |
+| ------------- | --------- | ---------------- | ------------------------------ | ------ |
+| Claude Pro    | Anthropic | $40.00           | LLM API access for development | Active |
+| Linode Server | Linode    | $19.80           | n8n workflow server hosting    | Active |
 
 ## LLM Services
 
@@ -33,9 +34,9 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ### Claude (Anthropic)
 
-| Service | Usage | Cost | Date | Notes |
-| ------- | ----- | ---- | ---- | ----- |
-|         |       |      |      |       |
+| Service                 | Usage                | Cost       | Date       | Notes                                          |
+| ----------------------- | -------------------- | ---------- | ---------- | ---------------------------------------------- |
+| Claude Pro Subscription | Monthly subscription | $40.00 NZD | 2025-11-03 | Monthly recurring subscription for development |
 
 ### Other LLM Providers
 
@@ -63,7 +64,7 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 | Service    | Plan/Specs | Cost (NZD/month) | Purpose             | Status |
 | ---------- | ---------- | ---------------- | ------------------- | ------ |
-| n8n Server |            |                  | Workflow automation |        |
+| n8n Server | Basic VPS  | $19.80 ($12 USD) | Workflow automation | Active |
 
 ### Other Infrastructure
 
@@ -101,22 +102,22 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ### Current Month Totals
 
-- **LLM Services**: $0.00 NZD
+- **LLM Services**: $40.00 NZD
 - **Voice AI Platforms**: $0.00 NZD
-- **Infrastructure**: $0.00 NZD
+- **Infrastructure**: $19.80 NZD
 - **Development Tools**: $0.00 NZD
 - **Testing & QA**: $0.00 NZD
-- **Total Monthly**: $0.00 NZD
+- **Total Monthly**: $59.80 NZD
 
 ### Year-to-Date Totals
 
-- **LLM Services**: $0.00 NZD
+- **LLM Services**: $40.00 NZD
 - **Voice AI Platforms**: $0.00 NZD
-- **Infrastructure**: $0.00 NZD
+- **Infrastructure**: $19.80 NZD
 - **Development Tools**: $0.00 NZD
 - **Testing & QA**: $0.00 NZD
 - **One-time Purchases**: $0.00 NZD
-- **Total YTD**: $0.00 NZD
+- **Total YTD**: $59.80 NZD
 
 ## Budget Planning
 
