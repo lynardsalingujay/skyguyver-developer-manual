@@ -139,5 +139,80 @@ export default defineConfig({
   // Build configuration
   vite: {
     publicDir: '../public'
-  }
+  },
+
+  // Custom head scripts for authentication
+  head: [
+    [
+      'script',
+      {},
+      `
+      // Simple password protection for SkyGuyver Documentation
+      (function() {
+        const AUTH_KEY = 'skyguyver_auth';
+        const CORRECT_PASSWORD = 'SkyGuyver2025!';
+        
+        function checkAuth() {
+          const isAuthenticated = sessionStorage.getItem(AUTH_KEY);
+          if (isAuthenticated === 'true') {
+            return true;
+          }
+          
+          const password = prompt('🔐 SkyGuyver Documentation Access\\n\\nEnter password:');
+          if (password === CORRECT_PASSWORD) {
+            sessionStorage.setItem(AUTH_KEY, 'true');
+            return true;
+          } else if (password !== null) {
+            alert('❌ Incorrect password. Access denied.');
+            window.location.href = 'about:blank';
+            return false;
+          } else {
+            // User cancelled
+            window.location.href = 'about:blank';
+            return false;
+          }
+        }
+        
+        // Add logout function to window
+        window.skyGuyverLogout = function() {
+          if (confirm('🔐 Logout from SkyGuyver Documentation?')) {
+            sessionStorage.removeItem(AUTH_KEY);
+            window.location.reload();
+          }
+        };
+        
+        // Check auth on page load
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', checkAuth);
+        } else {
+          checkAuth();
+        }
+      })();
+      `
+    ],
+    [
+      'style',
+      {},
+      `
+      /* Add logout button styling */
+      .logout-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: #ff4757;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+        z-index: 9999;
+        font-family: inherit;
+      }
+      .logout-btn:hover {
+        background: #ff3742;
+      }
+      `
+    ]
+  ]
 })
