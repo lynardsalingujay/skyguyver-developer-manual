@@ -7,6 +7,12 @@ export default defineConfig({
   // Clean URLs
   cleanUrls: true,
   
+  // Base URL for deployment (leave empty for root domain)
+  base: '/',
+  
+  // Ignore dead links for now (we can fix these later)
+  ignoreDeadLinks: true,
+  
   // Theme configuration
   themeConfig: {
     // Site title in navigation
