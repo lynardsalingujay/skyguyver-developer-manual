@@ -19,10 +19,12 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ## Monthly Recurring Costs
 
-| Service       | Provider  | Cost (NZD/month) | Purpose                        | Status |
-| ------------- | --------- | ---------------- | ------------------------------ | ------ |
-| Claude Pro    | Anthropic | $40.00           | LLM API access for development | Active |
-| Linode Server | Linode    | $19.80           | n8n workflow server hosting    | Active |
+| Service              | Provider  | Cost (NZD/month) | Purpose                            | Status |
+| -------------------- | --------- | ---------------- | ---------------------------------- | ------ |
+| Claude Pro           | Anthropic | $40.00           | LLM API access for development     | Active |
+| Linode Server        | Linode    | $19.80           | n8n workflow server hosting        | Active |
+| Netlify Pro          | Netlify   | $25.00           | Website hosting and deployment     | Active |
+| Twilio Phone Numbers | Twilio    | $3.50 per number | NZ phone numbers for voice service | Active |
 
 ## LLM Services
 
@@ -104,18 +106,20 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 - **LLM Services**: $40.00 NZD
 - **Voice AI Platforms**: $0.00 NZD
-- **Infrastructure**: $19.80 NZD
+- **Infrastructure**: $48.30 NZD (Linode $19.80 + Netlify $25.00 + Twilio $3.50)
 - **Development Tools**: $0.00 NZD
 - **Testing & QA**: $0.00 NZD
-- **Total Monthly**: $59.80 NZD
+- **Total Monthly**: $88.30 NZD
 
 ### Year-to-Date Totals
 
 - **LLM Services**: $40.00 NZD
 - **Voice AI Platforms**: $0.00 NZD
-- **Infrastructure**: $19.80 NZD
+- **Infrastructure**: $48.30 NZD
 - **Development Tools**: $0.00 NZD
 - **Testing & QA**: $0.00 NZD
+- **One-time Purchases**: $0.00 NZD
+- **Total YTD**: $88.30 NZD
 - **One-time Purchases**: $0.00 NZD
 - **Total YTD**: $59.80 NZD
 
