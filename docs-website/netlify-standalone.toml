@@ -1,17 +1,19 @@
+# Use this netlify.toml when deploying docs-website as separate repository
+
 [build]
-  base = "docs-website"
-  publish = "docs/.vitepress/dist"
   command = "npm ci && npm run docs:build"
+  publish = "docs/.vitepress/dist"
 
 [build.environment]
   NODE_VERSION = "18"
 
-# Handle VitePress clean URLs - redirect all paths to index.html for SPA routing
+# Handle VitePress clean URLs
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
+# Security headers
 [[headers]]
   for = "/*"
   [headers.values]
@@ -20,7 +22,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-# Cache static assets for 1 year
+# Cache optimization
 [[headers]]
   for = "/assets/*"
   [headers.values]
