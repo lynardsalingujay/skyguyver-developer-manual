@@ -27,6 +27,7 @@ export default defineConfig({
       { text: 'Architecture', link: '/architecture/' },
       { text: 'Supabase', link: '/supabase/' },
       { text: 'Workflows', link: '/workflows/' },
+      { text: 'Integrations', link: '/integrations/' },
       { text: 'New Ideas', link: '/new-ideas/' },
       { text: 'Operations', link: '/operations/' }
     ],
@@ -80,6 +81,21 @@ export default defineConfig({
                 { text: 'n8n Integration', link: '/workflows/n8n/' },
                 { text: 'Twilio Incoming Call', link: '/workflows/n8n/workflow-twilio-incoming-call' },
                 { text: 'Vapi End of Call Report', link: '/workflows/n8n/workflow-vapi-end-of-call-report' }
+              ]
+            }
+          ]
+        }
+      ],
+      
+      '/integrations/': [
+        {
+          text: 'Integrations',
+          items: [
+            { text: 'Overview', link: '/integrations/' },
+            {
+              text: 'Google Services',
+              items: [
+                { text: 'OAuth Setup Guide', link: '/integrations/google/oauth-setup' }
               ]
             }
           ]

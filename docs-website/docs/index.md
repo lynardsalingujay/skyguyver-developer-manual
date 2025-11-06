@@ -27,7 +27,12 @@ features:
     details: n8n workflow documentation, Vapi.ai integrations, and automated call processing systems.
     link: /workflows/
 
-  - icon: 💡
+  - icon: �
+    title: Integrations
+    details: Third-party service integrations including Google OAuth, authentication, and business tool connections.
+    link: /integrations/
+
+  - icon: �💡
     title: Business Ideas
     details: New revenue opportunities including outbound lead calling services and market analysis.
     link: /new-ideas/
