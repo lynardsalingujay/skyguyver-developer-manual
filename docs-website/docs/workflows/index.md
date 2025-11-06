@@ -8,6 +8,7 @@ This section documents all automated workflows, integrations, and process automa
 
 ### n8n Automation Platform
 
+- [**Twilio Incoming Call**](./n8n/workflow-twilio-incoming-call) - Call validation and routing workflow
 - [**Vapi End of Call Report**](./n8n/workflow-vapi-end-of-call-report) - Process call completion data
 - **Call Routing** - Intelligent call distribution
 - **Data Synchronization** - Real-time data updates between services
@@ -39,9 +40,9 @@ This section documents all automated workflows, integrations, and process automa
 
 ### Call Processing Workflows
 
-1. **Incoming Call Validation** - Verify and route incoming calls
+1. **Incoming Call Validation** - Verify and route incoming calls ([Twilio Workflow](./n8n/workflow-twilio-incoming-call))
 2. **Session Management** - Track active call sessions
-3. **Post-Call Processing** - Handle call completion data
+3. **Post-Call Processing** - Handle call completion data ([Vapi Workflow](./n8n/workflow-vapi-end-of-call-report))
 4. **Usage Calculation** - Update billing and usage metrics
 
 ### Business Process Workflows

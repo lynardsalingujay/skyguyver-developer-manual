@@ -74,8 +74,14 @@ export default defineConfig({
           text: 'Workflows',
           items: [
             { text: 'Overview', link: '/workflows/' },
-            { text: 'n8n Integration', link: '/workflows/n8n/' },
-            { text: 'Vapi End of Call Report', link: '/workflows/n8n/workflow-vapi-end-of-call-report' }
+            { 
+              text: 'n8n Workflows',
+              items: [
+                { text: 'n8n Integration', link: '/workflows/n8n/' },
+                { text: 'Twilio Incoming Call', link: '/workflows/n8n/workflow-twilio-incoming-call' },
+                { text: 'Vapi End of Call Report', link: '/workflows/n8n/workflow-vapi-end-of-call-report' }
+              ]
+            }
           ]
         }
       ],

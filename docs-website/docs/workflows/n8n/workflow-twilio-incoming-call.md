@@ -27,7 +27,7 @@ This n8n workflow handles incoming Twilio calls by validating client subscriptio
 - **Operation**: GET
 - **Table**: `client_subscriptions`
 - **Purpose**: Look up client subscription by phone number
-- **Filter**: `phone_number = {{ $json.body.To }}`
+- **Filter**: `phone_number = \{\{ $json.body.To \}\}`
 - **Always Output Data**: Yes
 
 ### 3. Code in JavaScript
@@ -295,7 +295,7 @@ The JavaScript code includes extensive console logging:
 
 **Related Documentation:**
 
-- [Vapi End-of-Call Report Workflow](./workflow-vapi-end-of-call-report.md)
-- [Client Subscriptions Table](../Supabase/Tables/client_subscriptions.md)
-- [User Sessions Table](../Supabase/Tables/user_sessions.md)
-- [Call Validation Logs Schema](../Supabase/Tables/call_validation_logs.md)
+- [Vapi End-of-Call Report Workflow](./workflow-vapi-end-of-call-report)
+- [Client Subscriptions Table](../../supabase/tables/client_subscriptions)
+- [User Sessions Table](../../supabase/tables/user_sessions)
+- [Call Validation Logs Schema](../../supabase/tables/call_validation_logs)
