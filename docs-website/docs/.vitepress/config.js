@@ -53,7 +53,16 @@ export default defineConfig({
                 { text: 'Client Subscriptions', link: '/supabase/tables/client-subscriptions' },
                 { text: 'User Sessions', link: '/supabase/tables/user-sessions' },
                 { text: 'Subscription Plans', link: '/supabase/tables/subscription-plans' },
-                { text: 'Call Validation Logs', link: '/supabase/tables/call-validation-logs' }
+                { text: 'Call Validation Logs', link: '/supabase/tables/call-validation-logs' },
+                { text: 'Assistants', link: '/supabase/tables/assistants' }
+              ]
+            },
+            {
+              text: 'SQL Queries',
+              items: [
+                { text: 'Overview', link: '/supabase/sql-queries/' },
+                { text: 'User Data Removal', link: '/supabase/sql-queries/user-data-removal' },
+                { text: 'Table Creation', link: '/supabase/sql-queries/table-creation' }
               ]
             }
           ]
@@ -92,7 +101,15 @@ export default defineConfig({
           text: 'Operations',
           items: [
             { text: 'Overview', link: '/operations/' },
-            { text: 'Expenses & Costs', link: '/operations/expenses-and-costs' }
+            { text: 'Expenses & Costs', link: '/operations/expenses-and-costs' },
+            {
+              text: 'Receipts & Tax Documentation',
+              items: [
+                { text: 'Receipt Management', link: '/operations/receipts/' },
+                { text: 'Receipt Index', link: '/operations/receipts/receipt-index' },
+                { text: 'PDF Viewing Guide', link: '/operations/receipts/pdf-viewing' }
+              ]
+            }
           ]
         }
       ]

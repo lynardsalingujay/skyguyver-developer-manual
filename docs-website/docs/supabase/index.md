@@ -12,6 +12,13 @@ This section contains comprehensive documentation for all Supabase database tabl
 - [**User Sessions**](./tables/user-sessions) - User session tracking and analytics
 - [**Subscription Plans**](./tables/subscription-plans) - Available subscription plans and pricing
 - [**Call Validation Logs**](./tables/call-validation-logs) - Call validation and compliance tracking
+- [**Assistants**](./tables/assistants) - AI assistant configurations and settings
+
+### SQL Queries & Scripts
+
+- [**SQL Queries**](./sql-queries/) - Collection of database queries and management scripts
+- [**User Data Removal**](./sql-queries/user-data-removal) - Scripts for removing users and related data
+- [**Database Maintenance**](./sql-queries/) - Cleanup and optimization queries
 
 ## Key Features
 

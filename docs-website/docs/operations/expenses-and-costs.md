@@ -50,9 +50,9 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ### Vapi.ai
 
-| Type | Credits/Usage | Cost | Date | Purpose | Notes |
-| ---- | ------------- | ---- | ---- | ------- | ----- |
-|      |               |      |      |         |       |
+| Type          | Credits/Usage   | Cost       | Date             | Purpose          | Notes                            |
+| ------------- | --------------- | ---------- | ---------------- | ---------------- | -------------------------------- |
+| Pay-as-you-go | Testing credits | $10.00 NZD | 2025-10-04 23:52 | Voice AI testing | Platform testing and development |
 
 ### Other Voice Platforms
 
@@ -96,13 +96,15 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ## One-time Purchases
 
-| Item | Cost | Date | Purpose | Notes |
-| ---- | ---- | ---- | ------- | ----- |
-|      |      |      |         |       |
+| Service/Item                  | Cost       | Date       | Purpose                        | Notes                                           |
+| ----------------------------- | ---------- | ---------- | ------------------------------ | ----------------------------------------------- |
+| Twilio Pay-as-you-go credits  | $20.00 NZD | 2025-09-19 | Voice service platform testing | Includes $3.50 NZ phone number + usage fees     |
+| Vapi.ai Pay-as-you-go credits | $10.00 NZD | 2025-10-04 | Voice AI platform testing      | Development and testing of voice AI integration |
+|                               |            |            |                                |                                                 |
 
 ## Cost Summary
 
-### Current Month Totals
+### Current Month Totals (November 2025)
 
 - **LLM Services**: $40.00 NZD
 - **Voice AI Platforms**: $0.00 NZD
@@ -111,17 +113,15 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 - **Testing & QA**: $0.00 NZD
 - **Total Monthly**: $88.30 NZD
 
-### Year-to-Date Totals
+### Year-to-Date Totals (2025)
 
 - **LLM Services**: $40.00 NZD
-- **Voice AI Platforms**: $0.00 NZD
+- **Voice AI Platforms**: $30.00 NZD (Twilio $20.00 + Vapi.ai $10.00)
 - **Infrastructure**: $48.30 NZD
 - **Development Tools**: $0.00 NZD
 - **Testing & QA**: $0.00 NZD
-- **One-time Purchases**: $0.00 NZD
-- **Total YTD**: $88.30 NZD
-- **One-time Purchases**: $0.00 NZD
-- **Total YTD**: $59.80 NZD
+- **One-time Purchases**: $30.00 NZD
+- **Total YTD**: $148.30 NZD
 
 ## Budget Planning
 
@@ -145,5 +145,5 @@ This document tracks all expenses and costs related to the Skyguyver voice AI pl
 
 ---
 
-**Last Updated**: November 3, 2025  
+**Last Updated**: November 6, 2025  
 **Next Review**: Monthly

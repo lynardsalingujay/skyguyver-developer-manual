@@ -9,8 +9,17 @@ This section covers operational aspects of running the SkyGuyver platform, inclu
 ### Cost Tracking
 
 - [**Expenses & Costs**](./expenses-and-costs) - Detailed breakdown of all operational expenses
+- [**Receipt Management**](./receipts/) - Tax documentation and receipt storage
+- [**Receipt Index**](./receipts/receipt-index) - Master list of all business receipts
 - **Monthly Recurring Costs**: $88.30 NZD
 - **Variable Costs**: Based on usage and scaling
+
+### Tax Documentation
+
+- **Receipt Storage**: Organized by date and vendor for tax compliance
+- **Expense Categories**: Professional services, R&D, infrastructure
+- **Retention Policy**: 7-year minimum as per NZ business requirements
+- **Digital Records**: Secure password-protected documentation
 
 ### Revenue Streams
 
