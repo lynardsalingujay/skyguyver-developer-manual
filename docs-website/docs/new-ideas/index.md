@@ -6,6 +6,14 @@ This section contains new business ideas, market opportunities, and revenue expa
 
 ## Current Projects
 
+### Personal AI Butler Service
+
+- [**Personal AI Butler**](./personal-ai-butler) - Premium bidirectional AI assistant service
+- **Target Market**: Busy executives, high-net-worth individuals, professionals
+- **Revenue Model**: Subscription tiers from $49-$499/month
+- **Key Innovation**: First service combining inbound calls (client calls AI) and outbound calls (AI calls client)
+- **Annual Potential**: $130K+ with 100 clients
+
 ### Outbound Lead Calling Service
 
 - [**Complete Business Plan**](./outbound-lead-calling/) - Comprehensive market analysis and implementation strategy

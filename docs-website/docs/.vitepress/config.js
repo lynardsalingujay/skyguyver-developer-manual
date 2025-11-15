@@ -29,6 +29,7 @@ export default defineConfig({
       { text: 'Workflows', link: '/workflows/' },
       { text: 'Integrations', link: '/integrations/' },
       { text: 'New Ideas', link: '/new-ideas/' },
+      { text: 'Competitors', link: '/competitors/' },
       { text: 'Operations', link: '/operations/' }
     ],
 
@@ -107,11 +108,27 @@ export default defineConfig({
           text: 'New Ideas',
           items: [
             { text: 'Overview', link: '/new-ideas/' },
+            { text: 'Personal AI Butler', link: '/new-ideas/personal-ai-butler' },
             {
               text: 'Outbound Lead Calling',
               items: [
                 { text: 'Business Plan', link: '/new-ideas/outbound-lead-calling/' },
                 { text: 'AIL NZ Opportunity', link: '/new-ideas/outbound-lead-calling/ail-nz' }
+              ]
+            }
+          ]
+        }
+      ],
+      
+      '/competitors/': [
+        {
+          text: 'Competitor Analysis',
+          items: [
+            { text: 'Overview', link: '/competitors/' },
+            {
+              text: 'New Zealand Based',
+              items: [
+                { text: 'Envoke AI', link: '/competitors/envoke-ai' }
               ]
             }
           ]

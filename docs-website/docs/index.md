@@ -32,9 +32,9 @@ features:
     details: Third-party service integrations including Google OAuth, authentication, and business tool connections.
     link: /integrations/
 
-  - icon: �💡
+  - icon: 💡
     title: Business Ideas
-    details: New revenue opportunities including outbound lead calling services and market analysis.
+    details: New revenue opportunities including Personal AI Butler service and outbound lead calling for professional services.
     link: /new-ideas/
 
   - icon: 📊
